@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Doc To PDF</title>
+</head>
+<body>
+    Welcome!
+    <% if(code) { %>
+        <p>Successfully logged in</p>
+    <% } else { %>
+    <a href="<%= google_auth_link %>">Sign in with Google</a>
+    <% } %>
+</body>
+</html>
